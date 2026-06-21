@@ -6,6 +6,12 @@ Dashboard interaktif untuk analisis sebaran sampah laut (marine debris) di perai
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28%2B-red)
 
+### 🔗 [**Buka Dashboard Live →**](https://marine-debrisdashboard-4437g9jnf9ustfotsyp59y.streamlit.app/)
+ 
+Dashboard sudah online dan bisa langsung diakses tanpa instalasi apapun:
+ 
+**https://marine-debrisdashboard-4437g9jnf9ustfotsyp59y.streamlit.app/**
+
 ---
 
 ## 📋 Daftar Isi
@@ -17,10 +23,10 @@ Dashboard interaktif untuk analisis sebaran sampah laut (marine debris) di perai
 - [Struktur Data](#-struktur-data)
 - [Upload Dataset Baru](#-upload-dataset-baru)
 - [Menambahkan Data Oseanografi](#-menambahkan-data-oseanografi)
+- [Deploy ke Streamlit Cloud](#-deploy-ke-streamlit-cloud)
 - [Referensi Dataset](#-referensi-dataset)
 - [Batasan & Asumsi](#-batasan--asumsi)
 - [Kontributor](#-kontributor)
-- [Lisensi](#-lisensi)
 
 ---
 
@@ -60,10 +66,10 @@ Dashboard menampilkan:
 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/USERNAME/mirisda-dashboard.git
+git clone https://github.com/mifzalnazmi/mirisda-dashboard.git
 cd mirisda-dashboard
 
-# 2. (Opsional tapi disarankan) buat virtual environment
+# 2. Buat virtual environment
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
@@ -137,6 +143,16 @@ Aktifkan toggle **"Gunakan data oseanografi simulasi"** di sidebar. Data simulas
 
 ---
 
+## ☁️ Deploy ke Streamlit Cloud
+ 
+1. Push seluruh isi repository ini ke akun GitHub (repo bisa public atau private dengan Streamlit Cloud Team)
+2. Buka [share.streamlit.io](https://share.streamlit.io), login dengan akun GitHub
+3. Klik **"New app"**, pilih repository ini
+4. Set **Main file path** ke `dashboard.py`
+5. Klik **Deploy** — dashboard online dalam beberapa menit dengan link publik
+
+---
+
 ## 📚 Referensi Dataset
 
 **Dataset debris:**
@@ -158,10 +174,6 @@ Hersbach, H. et al. (2023). ERA5 hourly data on single levels from 1940 to prese
 
 ## 👥 Kontributor
 
-Dikembangkan oleh **Mifzal & Riska** sebagai bagian dari proyek MIRISDA.
+Dikembangkan oleh **Muhammad Mifzal Nazmi Nuwair (12923003) & Riska Andriani (12923045)** sebagai bagian dari proyek MIRISDA.
 
 ---
-
-## 📄 Lisensi
-
-Lihat file [LICENSE](LICENSE) untuk detail. Dataset pihak ketiga (UoP, ERA5) tunduk pada lisensi masing-masing sumber.
