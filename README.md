@@ -133,7 +133,7 @@ Aktifkan toggle **"Gunakan data oseanografi simulasi"** di sidebar. Data simulas
 1. Unduh data Angin dan Gelombang di ERA5
 2. Gabungkan kedua file yang sudah diunduh dalam bentuk .nc
 3. Buka dashboard marine debris nya
-4. Upload file hasil ke dashboard via sidebar **"🌬️ Upload Data Oseanografi (ERA5)"**
+4. Upload file hasil (ERA5_Gabungan_filled.nc) ke dashboard via sidebar **"🌬️ Upload Data Oseanografi (ERA5)"**
 
 ---
 
